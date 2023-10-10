@@ -1,0 +1,23 @@
+name: thrillie
+repository: https://github.com/Nikron9/thrillie
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - l1_application
+  - l0_domain
+  - l2_frameworks
+  - l3_presentation
+
+scripts:
+  test:
+    exec: run test:selective_unit_test --no-select
+    description: Run all Flutter tests in this project.
+  analyze:
+    exec: flutter analyze
+    description: Run `dart analyze` in all packages.
+  pubGetAll:
+    exec: flutter pub get
+    description: Install all dependencies
+  pubUpgradeAll:
+    exec: flutter pub upgrade
+    description: Upgrade all dependencies
