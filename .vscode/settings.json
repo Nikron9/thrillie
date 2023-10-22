@@ -1,31 +1,34 @@
 {
-    "dart.flutterSdkPath": ".fvm/flutter_sdk",
-    // Remove .fvm files from search
-    "search.exclude": {
-      "**/.fvm": true
-    },
-    // Remove from file watching
-    "files.watcherExclude": {
-      "**/.fvm": true
-    },
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/Thumbs.db": true,
-      "**/.dart_tool": true,
-      "**/build": true,
-      "**/linux": true,
-      "**/macos": true,
-      "**/web": true,
-      "**/windows": true,
-      "**/*.lock": true,
-      "**/*.iml": true,
-      "**/.flutter-plugins": true,
-      "**/.flutter-plugins-dependencies": true,
-      "**/.idea": true
-    },
-    "explorerExclude.backup": {}
-  }
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/test/**": true,
+    "**/*.g.dart": true,
+    ".fvm/flutter_sdk": true,
+    "**/build": true,
+    "**/linux": true,
+    "**/macos": true,
+    "**/web": true,
+    "**/windows": true,
+    "**/*.lock": true,
+    "**/*.iml": true,
+    "**/.dart_tool": true,
+    "**/.flutter-plugins": true,
+    "**/.flutter-plugins-dependencies": true,
+    "**/.idea": true
+  },
+  "explorerExclude.backup": {}
+}

@@ -1,34 +1,34 @@
 name: thrillie
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 
 version: 0.0.1+1
 
 environment:
-  sdk: '>=3.1.3 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  cloud_firestore: ^4.0.0
-  cupertino_icons: ^1.0.0
-  firebase_auth: ^4.0.0
+  auto_route: ^7.8.4
+  cupertino_icons: ^1.0.6
   flutter:
     sdk: flutter
-  get_it: ^7.0.0
-  l0_domain:
-    path: l0_domain/
-  l1_application:
-    path: l1_application/
-  l2_frameworks:
-    path: l2_frameworks/
-  l3_presentation:
-    path: l3_presentation/
-    
+  flutter_bloc: ^8.0.0
+  flutter_native_splash: ^2.3.4
+  get_it: ^7.6.4
+  l0_data:
+    path: l0_data/
+  l1_domain:
+    path: l1_domain/
+  l2_presentation:
+    path: l2_presentation/
+
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  auto_route_generator: ^7.3.2
+  build_runner: ^2.4.6
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  melos: ^3.0.0
-
+  melos: ^3.1.1
 
 flutter:
   uses-material-design: true

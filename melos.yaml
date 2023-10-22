@@ -3,10 +3,11 @@ repository: https://github.com/Nikron9/thrillie
 sdkPath: .fvm/flutter_sdk
 
 packages:
+  - .
   - l1_application
-  - l0_domain
-  - l2_frameworks
-  - l3_presentation
+  - l1_domain
+  - l0_data
+  - l2_presentation
 
 scripts:
   test:
@@ -15,9 +16,15 @@ scripts:
   analyze:
     exec: flutter analyze
     description: Run `dart analyze` in all packages.
-  pubGetAll:
+  pubGet:
     exec: flutter pub get
     description: Install all dependencies
-  pubUpgradeAll:
+  pubCleanCache:
+    exec: flutter pub cache clean
+    description: Clean all caches
+  pubUpgrade:
     exec: flutter pub upgrade
     description: Upgrade all dependencies
+  buildRunner:
+    exec: flutter pub run build_runner build
+    description: Generate necessary code
